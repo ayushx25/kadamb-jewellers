@@ -376,14 +376,21 @@ export default function JewelleryShopWebsite() {
             </div>
 
             <form className="space-y-5">
+              const [name, setName] = useState('');
+const [phone, setPhone] = useState('');
+const [message, setMessage] = useState('');
               <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full rounded-2xl border border-stone-300 px-5 py-4 outline-none focus:border-yellow-500"
-              />
+  type="text"
+  placeholder="Your Name"
+  value={name}
+  onChange={(e) => setName(e.target.value)}
+  className="w-full rounded-2xl border border-stone-300 px-5 py-4 outline-none focus:border-yellow-500"
+/>
               <input
   type="tel"
   placeholder="Your Contact Number"
+  value={phone}
+  onChange={(e) => setPhone(e.target.value)}
   className="w-full rounded-2xl border border-stone-300 px-5 py-4 outline-none focus:border-yellow-500"
 />
 
@@ -394,17 +401,27 @@ export default function JewelleryShopWebsite() {
               />
 
               <textarea
-                rows="5"
-                placeholder="Your Message"
-                className="w-full rounded-2xl border border-stone-300 px-5 py-4 outline-none focus:border-yellow-500"
-              />
+  rows="5"
+  placeholder="Your Message"
+  value={message}
+  onChange={(e) => setMessage(e.target.value)}
+  className="w-full rounded-2xl border border-stone-300 px-5 py-4 outline-none focus:border-yellow-500"
+/>
 
               <button
-                type="submit"
-                className="w-full rounded-2xl bg-yellow-500 px-6 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
-              >
-                Send Inquiry
-              </button>
+  type="button"
+  onClick={() => {
+    const whatsappMessage = `Hello Kadamb Jewellers,%0A%0AName: ${name}%0APhone: ${phone}%0AMessage: ${message}`;
+
+    window.open(
+      `https://wa.me/918000001285?text=${whatsappMessage}`,
+      '_blank'
+    );
+  }}
+  className="w-full rounded-2xl bg-yellow-500 px-6 py-4 text-lg font-semibold text-black transition hover:scale-[1.02]"
+>
+  Send Inquiry
+</button>
             </form>
           </div>
         </div>
