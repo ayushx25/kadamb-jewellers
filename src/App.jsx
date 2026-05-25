@@ -424,8 +424,7 @@ export default function JewelleryShopWebsite() {
             Stay updated with our latest jewellery collections, festive offers, bridal designs, and daily gold price updates.
           </p>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            <a
+<div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">            <a
               href="https://www.instagram.com/kadambjewellers?igsh=MW1uamZtZXAzeTVweg=="
               target="_blank"
               rel="noreferrer"
@@ -463,6 +462,22 @@ export default function JewelleryShopWebsite() {
                 Follow us for offers, customer stories, and festive collections.
               </p>
             </a>
+            <a
+  href="https://maps.google.com/?q=Kadamb+Jewellers+Station+Road+Dhasa+Botad"
+  target="_blank"
+  rel="noreferrer"
+  className="rounded-3xl border border-red-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-red-500/10"
+>
+  <div className="text-5xl">📍</div>
+
+  <h4 className="mt-5 text-2xl font-semibold">
+    Locate Us
+  </h4>
+
+  <p className="mt-3 text-stone-300">
+    Visit our jewellery showroom at Station Road, Dhasa, Botad for premium gold and silver collections.
+  </p>
+</a>
           </div>
         </div>
       </section>
