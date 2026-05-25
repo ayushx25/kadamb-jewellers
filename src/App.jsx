@@ -5,7 +5,11 @@ import image3 from './assets/image3.jpeg';
 import image4 from './assets/image4.jpeg';
 import image5 from './assets/image5.jpeg';
 export default function JewelleryShopWebsite() {
+
   const [selectedCollection, setSelectedCollection] = useState(null);
+  const [name, setName] = useState('');
+const [phone, setPhone] = useState('');
+const [message, setMessage] = useState('');
   const goldPrice24K = '₹158595';
   const goldPrice22K = '₹144861';
   const silverPrice = '₹279';
@@ -376,9 +380,7 @@ export default function JewelleryShopWebsite() {
             </div>
 
             <form className="space-y-5">
-              const [name, setName] = useState('');
-const [phone, setPhone] = useState('');
-const [message, setMessage] = useState('');
+              
               <input
   type="text"
   placeholder="Your Name"
