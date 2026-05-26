@@ -12,20 +12,19 @@ export default function JewelleryShopWebsite() {
   const [name, setName] = useState('');
 const [phone, setPhone] = useState('');
 const [message, setMessage] = useState('');
-const [goldPrice24K, setGoldPrice24K] = useState('');
-const [goldPrice22K, setGoldPrice22K] = useState('');
-const [silverPrice, setSilverPrice] = useState('');
+const [goldPrice24K, setGoldPrice24K] = useState("");
+const [goldPrice22K, setGoldPrice22K] = useState("");
+const [silverPrice, setSilverPrice] = useState("");
 useEffect(() => {
   const fetchPrices = async () => {
-    const docRef = doc(db, 'prices', 'dailyRates');
-
+    const docRef = doc(db, "prices", "dailyRates");
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
       const data = docSnap.data();
 
-      setGoldPrice24K(data.gold24K);
-      setGoldPrice22K(data.gold22K);
+      setGoldPrice24K(data.gold24k);
+      setGoldPrice22K(data.gold22k);
       setSilverPrice(data.silver);
     }
   };
