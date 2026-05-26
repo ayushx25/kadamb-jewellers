@@ -10,9 +10,9 @@ export default function JewelleryShopWebsite() {
   const [name, setName] = useState('');
 const [phone, setPhone] = useState('');
 const [message, setMessage] = useState('');
-  const goldPrice24K = '₹158595';
-  const goldPrice22K = '₹144861';
-  const silverPrice = '₹279';
+  const goldPrice24K = '₹157722';
+  const goldPrice22K = '₹144063';
+  const silverPrice = '₹275';
   const lastUpdated = 'Updated just now';
   const collections = [
     {
