@@ -430,76 +430,64 @@ const [message, setMessage] = useState('');
       </section>
 
       <section className="bg-gradient-to-r from-stone-900 to-black px-6 py-16 text-white md:px-16">
-        <div className="mx-auto max-w-6xl text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-yellow-400">
-            Connect With Us
-          </p>
+  <div className="mx-auto max-w-6xl text-center">
+    <p className="text-sm uppercase tracking-[0.3em] text-yellow-400">
+      Connect With Us
+    </p>
 
-          <h3 className="mt-4 text-4xl font-bold">
-            Follow Kadamb Jewellers Online
-          </h3>
+    <h3 className="mt-4 text-4xl font-bold">
+      Follow Kadamb Jewellers Online
+    </h3>
 
-          <p className="mt-5 text-lg text-stone-300">
-            Stay updated with our latest jewellery collections, festive offers, bridal designs, and daily gold price updates.
-          </p>
+    <p className="mt-5 text-lg text-stone-300">
+      Stay updated with our latest jewellery collections, festive offers, bridal designs, and daily gold price updates.
+    </p>
 
-<div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">            <a
-              href="https://www.instagram.com/kadambjewellers?igsh=MW1uamZtZXAzeTVweg=="
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-3xl border border-pink-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-pink-500/10"
-            >
-              <div className="text-5xl">📸</div>
-              <h4 className="mt-5 text-2xl font-semibold">Instagram</h4>
-              <p className="mt-3 text-stone-300">
-                Explore our newest jewellery collections and exclusive designs.
-              </p>
-            </a>
+    <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-            <a
-              href="https://wa.me/918000001285"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-3xl border border-green-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-green-500/10"
-            >
-              <div className="text-5xl">💬</div>
-              <h4 className="mt-5 text-2xl font-semibold">WhatsApp</h4>
-              <p className="mt-3 text-stone-300">
-                Chat directly with us for jewellery inquiries and orders.
-              </p>
-            </a>
+      <a
+        href="https://www.instagram.com/kadambjewellers"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-3xl border border-pink-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-pink-500/10"
+      >
+        <div className="text-5xl">📸</div>
+        <h4 className="mt-5 text-2xl font-semibold">Instagram</h4>
+      </a>
 
-            <a
-              href="https://www.instagram.com/kadambjewellers?igsh=MW1uamZtZXAzeTVweg=="
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-3xl border border-blue-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-blue-500/10"
-            >
-              <div className="text-5xl">📘</div>
-              <h4 className="mt-5 text-2xl font-semibold">Facebook</h4>
-              <p className="mt-3 text-stone-300">
-                Follow us for offers, customer stories, and festive collections.
-              </p>
-            </a>
-            <a
-  href="https://maps.google.com/?q=Kadamb+Jewellers+Station+Road+Dhasa+Botad"
-  target="_blank"
-  rel="noreferrer"
-  className="rounded-3xl border border-red-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-red-500/10"
->
-  <div className="text-5xl">📍</div>
+      <a
+        href="https://wa.me/918000001285"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-3xl border border-green-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-green-500/10"
+      >
+        <div className="text-5xl">💬</div>
+        <h4 className="mt-5 text-2xl font-semibold">WhatsApp</h4>
+      </a>
 
-  <h4 className="mt-5 text-2xl font-semibold">
-    Locate Us
-  </h4>
+      <a
+        href="https://facebook.com"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-3xl border border-blue-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-blue-500/10"
+      >
+        <div className="text-5xl">📘</div>
+        <h4 className="mt-5 text-2xl font-semibold">Facebook</h4>
+      </a>
 
-  <p className="mt-3 text-stone-300">
-    Visit our jewellery showroom at Station Road, Dhasa, Botad for premium gold and silver collections.
-  </p>
-</a>
-          </div>
-        </div>
-      </section>
+      <a
+        href="https://maps.google.com/?q=Kadamb+Jewellers+Station+Road+Dhasa+Botad"
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-3xl border border-red-500/30 bg-white/5 p-8 transition hover:-translate-y-2 hover:bg-red-500/10"
+      >
+        <div className="text-5xl">📍</div>
+        <h4 className="mt-5 text-2xl font-semibold">Locate Us</h4>
+      </a>
+
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-black px-6 py-8 text-center text-stone-400">
