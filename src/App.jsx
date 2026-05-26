@@ -61,6 +61,21 @@ const [message, setMessage] = useState('');
       description: 'Designer necklaces crafted with premium gold and diamonds.',
       items: ['Long Necklaces', 'Diamond Necklaces', 'Temple Necklaces', 'Modern Chokers', 'Pearl Sets', 'Wedding Necklaces'],
     },
+    {
+      title: '92.5 Premium Silver',
+      image: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=1200&auto=format&fit=crop',
+      description: 'Premium 92.5 sterling silver jewellery crafted with modern elegance and luxury finishing.',
+      items: [
+        'Sterling Silver Rings',
+        'Premium Silver Chains',
+        'Silver Bracelets',
+        'Designer Earrings',
+        '925 Silver Pendants',
+        'Luxury Gift Articles',
+      ],
+      context:
+        'Our 92.5 premium silver collection offers high-quality sterling silver jewellery designed for modern fashion, gifting, and elegant daily wear.',
+    },
   ];
 
   return (
