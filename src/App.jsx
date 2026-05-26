@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import { db } from './firebase';
-import { doc, getDoc } from 'firebase/firestore';
-import { useEffect } from 'react';
+import { useEffect, useState } from "react";
+import { db } from "./firebase";
+import { doc, getDoc } from "firebase/firestore";
 import image6 from './assets/image6.jpeg';
 import image2 from './assets/image2.jpeg';
 import image3 from './assets/image3.jpeg';
@@ -13,7 +12,7 @@ export default function JewelleryShopWebsite() {
   const [name, setName] = useState('');
 const [phone, setPhone] = useState('');
 const [message, setMessage] = useState('');
-  const [goldPrice24K, setGoldPrice24K] = useState('');
+const [goldPrice24K, setGoldPrice24K] = useState('');
 const [goldPrice22K, setGoldPrice22K] = useState('');
 const [silverPrice, setSilverPrice] = useState('');
 useEffect(() => {
